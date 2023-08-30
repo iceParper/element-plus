@@ -13,6 +13,7 @@
 const defaultProps = {
   children: 'children',
   label: 'label',
+  disabled: 'disabled',
 }
 const data = [
   {
@@ -42,6 +43,7 @@ const data = [
       {
         id: 5,
         label: 'Level two 2-1',
+        disabled: true
       },
       {
         id: 6,
